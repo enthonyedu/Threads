@@ -32,7 +32,7 @@ public class Caminhao implements Runnable {
 			carregarCaminhao(numeroDaCaixaAtual);
 
 			System.out.println(
-					"A caixa " + numeroDaCaixaAtual + " do caminhao" + this.nome + " terminou de ser carregada");
+					"A caixa " + numeroDaCaixaAtual + " do caminhao " + this.nome + " terminou de ser carregada");
 
 			numeroDaCaixaAtual += 1;
 
